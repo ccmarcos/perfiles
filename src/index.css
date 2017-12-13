@@ -490,3 +490,19 @@
   height: 10px;
   background: #e6eaee;
 }
+
+.video-bloque1{
+  margin-top: 8px;
+  width: 100%;
+  height: 50px;
+  background: #f7f8fb;
+}
+
+.info-bloque1{
+  position: relative;
+  top: 16px;
+  left: 10px;
+  width: 50px;
+  height: 10px;
+  background: #e6eaee;
+}

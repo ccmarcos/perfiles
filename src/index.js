@@ -75,6 +75,10 @@ class ModificandoDiv extends React.Component {
                         </div>
                       </div>
                     </div>
+
+                    <div className="video-bloque1">
+                      <div className="info-bloque1"></div>
+                    </div>
                   </div>
                   <div className="seccion-izquierdo"></div>
                 </div>
