@@ -99,7 +99,7 @@
 .body-container{
   background: #e9ebee;
   width: 100%;
-  height: 800px;
+  height: 1000px;
   display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
   display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
   display: -ms-flexbox;      /* TWEENER - IE 10 */
@@ -108,9 +108,9 @@
 }
 
 .contenedor-derecho{
-  background: rgb(26, 194, 135);
+  /*background: rgb(26, 194, 135);*/
   width: 71%;
-  height: 1500px;
+  height: 1000px;
   margin-left: 8%;
 }
 
@@ -134,7 +134,7 @@
 }
 
 .seccion{
-  background: rgb(170, 155, 24);
+  /*background: rgb(170, 155, 24);*/
   width: 100%;
   height: 500px;
   margin-top: 10px;
@@ -237,48 +237,48 @@
   justify-content: space-around;
 }
 
-.content-gray1{
+/*.content-gray1{
   background: #e6eaee;
   margin-top: 7px;
   margin-left: 7px;
   width: 70%;
-  height: 10px;
-}
+  height: 7px;
+}*/
 
 .content-gray2{
   background: #e6eaee;
   margin-top: 7px;
   margin-left: 7px;
   width: 30%;
-  height: 10px;
+  height: 7px;
 }
 .content-gray3{
   background: #e6eaee;
   margin-top: 7px;
   margin-left: 7px;
   width: 30%;
-  height: 10px;
+  height: 7px;
 }
 .content-gray4{
   background: #e6eaee;
   margin-top: 7px;
   margin-left: 7px;
   width: 5%;
-  height: 10px;
+  height: 7px;
 }
 .content-gray5{
   background: #e6eaee;
   margin-top: 7px;
   margin-left: 7px;
   width: 5%;
-  height: 10px;
+  height: 7px;
 }
 .content-gray1{
   background: #e6eaee;
   margin-top: 7px;
   margin-left: 7px;
   width: 70%;
-  height: 10px;
+  height: 7px;
 }
 .menu-biografia{
   width: 30%;
@@ -296,34 +296,29 @@
 .item1{
   margin-top: 16px;
   width: 20%;
-  height: 12px;
+  height: 9px;
   background:  #e6eaee;
 }
 .item2{
   margin-top: 16px;
   width: 20%;
-  height: 12px;
+  height: 9px;
   background:  #e6eaee;
 }
 
 .item3{
   margin-top: 16px;
   width: 15%;
-  height: 12px;
+  height: 9px;
   background:  #e6eaee;
 }
 .item4{
   margin-top: 16px;
   width: 13%;
-  height: 12px;
+  height: 9px;
   background:  #e6eaee;
 }
-.item4{
-  margin-top: 16px;
-  width: 12%;
-  height: 12px;
-  background:  #e6eaee;
-}
+
 
 .menu-vertical1{
   /*background: rgb(138, 130, 224);*/
@@ -402,15 +397,15 @@
 
 .seccion-derecho{
   width: 36%;
-  height: 500px;
-  background: rgb(69, 86, 241);
+  height: 700px;
+  /*background: rgb(69, 86, 241);*/
 }
 
 .seccion-izquierdo{
   margin-left: 8px;
   width: 63%;
-  height: 500px;
-  background: rgb(153, 23, 207);
+  height: 700px;
+  /*background: rgb(153, 23, 207);*/
 }
 
 .publicidad{
@@ -457,7 +452,7 @@
 .abajo-item2{
   margin-top: 30px;
   width: 170px;
-  height: 10px;
+  height: 7px;
   background: #e6eaee;
 }
 .arriba-item1{
@@ -479,7 +474,7 @@
 
 .arriba-item21{
   width: 150px;
-  height: 10px;
+  height: 7px;
   margin-top: 3px;
   margin-bottom: 4px;
   background: #e6eaee;
@@ -487,7 +482,7 @@
 
 .arriba-item22{
   width: 200px;
-  height: 10px;
+  height: 7px;
   background: #e6eaee;
 }
 
@@ -503,6 +498,262 @@
   top: 16px;
   left: 10px;
   width: 50px;
+  height: 7px;
+  background: #e6eaee;
+}
+.video-bloque2{
+  width: 100%;
+  height: 200px;
+  background: white;
+}
+.circleBase {
+  position: relative;
+    border-radius: 50%;
+    top: 50px;
+    left: 120px;
+    display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox;      /* TWEENER - IE 10 */
+    display: -webkit-flex;     /* NEW - Chrome */
+    display: flex;
+    justify-content: space-around;
+}
+
+.type1 {
+    width: 80px;
+    height: 80px;
+    background: #e6eaee;
+}
+.triangle-right{
+	width: 0;
+	height: 0;
+  margin-top: 23px;
+  margin-left: 8px;
+	border-top: 15px solid transparent;
+	border-left: 30px solid white;
+	border-bottom: 15px solid transparent;
+}
+
+.video-bloque3{
+  width: 100%;
+  height: 150px;
+  background: #f7f8fb;
+}
+.video-bloque31{
+  width: 100%;
+  height: 70px;
+  /*background: rgb(55, 238, 206);*/
+}
+
+.video-bloque32{
+  width: 100%;
+  height: 35px;
+  /*background: rgb(102, 8, 90);*/
+  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;     /* NEW - Chrome */
+  display: flex;
+  /*justify-content: space-around;*/
+}
+.video-bloque32{
+  width: 100%;
+  height: 35px;
+  /*background: rgb(102, 8, 90);*/
+}
+.video-bloque33{
+  width: 100%;
+  height: 35px;
+  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;     /* NEW - Chrome */
+  display: flex;
+  /*background: rgb(102, 8, 90);*/
+}
+.bloque-item1{
+  width: 85%;
+  height: 7px;
+  position: relative;
+  left: 10px;
+  top: 8px;
+  background: #e6eaee;
+}
+
+.bloque-item2{
+  position: relative;
+  left: 10px;
+  top: 16px;
+  width: 85%;
+  height: 7px;
+  background: #e6eaee;
+}
+
+.bloque-item3{
+  position: relative;
+  left: 10px;
+  top: 24px;
+  width: 50%;
+  height: 7px;
+  background: #e6eaee;
+}
+.video-item1{
+  margin-left: 10px;
+  margin-right: 8px;
+  margin-top: 16px;
+  width: 10px;
   height: 10px;
   background: #e6eaee;
+}
+
+.video-item2{
+  margin-top: 20px;
+  width: 180px;
+  height: 6px;
+  background: #e6eaee;
+}
+
+.video-item11{
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 8px;
+  width: 10px;
+  height: 10px;
+  background: #e6eaee;
+}
+
+.video-item22{
+  width: 180px;
+  height: 6px;
+  margin-top: 12px;
+  background: #e6eaee;
+}
+.bloque4{
+  width: 100%;
+  height:100px;
+  /*background: rgb(91, 177, 187);*/
+  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;     /* NEW - Chrome */
+  display: flex;
+}
+.bloque-morado{
+  margin-right: 8px;
+  width: 49%;
+  height: 150px;
+  background: #a28cde;
+}
+
+.bloque-morado2{
+  width: 49%;
+  height: 150px;
+  background: #a28cde;
+}
+.post-bloque1{
+  width: 100%;
+  height: 40px;
+  background: #f7f8fb;
+}
+.post-bloque11{
+  position: relative;
+  top: 14px;
+  left: 8px;
+  width: 50px;
+  height: 7px;
+  background: #e6eaee;
+}
+
+.post-bloque2{
+  width: 100%;
+  height: 80px;
+  background: white;
+}
+.post-bloque3{
+  width: 100%;
+  height: 40px;
+  background: #f7f8fb;
+}
+.post-publicado{
+  margin-top: 8px;
+  width: 100%;
+  height: 520px;
+  background: white;
+}
+.publicado-perfil{
+  width: 100%;
+  height: 70px;
+  /*background: rgb(27, 94, 150);*/
+  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;     /* NEW - Chrome */
+  display: flex;
+}
+.publicado-perfil-info1{
+  width: 50px;
+  height: 50px;
+  position: relative;
+  top: 10px;
+  left: 10px;
+  background: #ffe345;
+}
+.publicado-perfil-info2{
+  width: 30%;
+  height: 70px;
+  margin-left: 20px;
+  /*background: rgb(66, 214, 67);*/
+}
+.publicado-guardado{
+  width: 12px;
+  height: 25px;
+  margin-left: 310px;
+  background: #f9c06d;
+}
+.publicado-item1{
+  margin-top: 20px;
+  margin-bottom: 10px;
+  width: 100px;
+  height: 7px;
+  background: #e6eaee;
+}
+.publicado-item2{
+  width: 50px;
+  height: 7px;
+  background: #e6eaee;
+}
+.descripcion-publicacion1{
+  margin-top: 16px;
+  margin-left: 10px;
+  width: 96%;
+  height: 7px;
+  background: #ededed;
+}
+.descripcion-publicacion2{
+  margin-top: 16px;
+  margin-left: 10px;
+  width: 96%;
+  height: 7px;
+  background: #ededed;
+}
+.descripcion-publicacion3{
+  margin-top: 16px;
+  width: 96%;
+  margin-left: 10px;
+  height: 7px;
+  background: #ededed;
+}
+.descripcion-publicacion4{
+  margin-top: 16px;
+  width: 50%;
+  margin-left: 10px;
+  height: 7px;
+  background: #ededed;
+}
+.publicacion-foto{
+  margin-top: 40px;
+  width: 96%;
+  margin-left: 10px;
+  height: 310px;
+  background: #85dd66;
 }
